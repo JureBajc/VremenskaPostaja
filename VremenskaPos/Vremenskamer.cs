@@ -6,11 +6,19 @@ using System.Threading.Tasks;
 
 namespace VremenskaPos
 {
-    internal class Vremenskamer:Meritev
+    internal class Vremenskamer
     {
-        
+        public Vremenskamer(DateTime casovnizig, double temp, int hitrostV, smerVetra smerVetra, int vlaznost)
+        {
+            this.casovnizig = casovnizig;
+            this.temp = temp;
+            this.hitrostV = hitrostV;
+            SmerVetra = smerVetra;
+            this.vlaznost = vlaznost;
+        }
+
         public DateTime casovnizig { get; set; }
-        public int temp { get; set; }
+        public double temp { get; set; }
         public int hitrostV { get; set; }
         public enum smerVetra
         {

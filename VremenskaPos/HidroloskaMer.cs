@@ -6,8 +6,16 @@ using System.Threading.Tasks;
 
 namespace VremenskaPos
 {
-    internal class HidroloskaMer:Meritev
+    internal class HidroloskaMer
     {
+        public HidroloskaMer(DateTime casovnizig, int temp, int vodostaj, double pretok)
+        {
+            this.casovnizig = casovnizig;
+            this.temp = temp;
+            this.vodostaj = vodostaj;
+            this.pretok = pretok;
+        }
+
         public DateTime casovnizig { get; set; }
         public int temp { get; set; }
         public int vodostaj { get; set; }

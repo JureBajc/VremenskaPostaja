@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace VremenskaPos
 {
-    abstract class MerlilnaPos
+    abstract class MerilnaPos
     {
+        public abstract List<double> minmax();
+        public abstract double Avg();
+        public abstract DateTime GetDate();
     }
 }
