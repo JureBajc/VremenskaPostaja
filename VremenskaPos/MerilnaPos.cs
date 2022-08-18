@@ -10,6 +10,6 @@ namespace VremenskaPos
     {
         public abstract List<double> minmax();
         public abstract double Avg();
-        public abstract DateTime GetDate();
+        public abstract List<Meritev> GetDate();
     }
 }

@@ -33,9 +33,9 @@ namespace VremenskaPos
             return avg;
         }
 
-        public override DateTime GetDate()
+        public override List<Meritev> GetDate()
         {
-            throw new NotImplementedException();
+            return seznammeritve;
         }
 
         public override List<double> minmax()

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VremenskaPos
 {
-    internal class Vremenskamer
+    internal class Vremenskamer: Meritev
     {
         public Vremenskamer(DateTime casovnizig, double temp, int hitrostV, smerVetra smerVetra, int vlaznost)
         {

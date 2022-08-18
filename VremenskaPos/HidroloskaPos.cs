@@ -56,9 +56,9 @@ namespace VremenskaPos
             return avg;
         }
 
-        public override DateTime GetDate()
+        public override List<Meritev> GetDate()
         {
-            return hidroloska.casovnizig
+            return hidroloska;
         }
     }
 }
